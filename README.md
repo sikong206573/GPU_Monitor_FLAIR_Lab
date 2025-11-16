@@ -88,7 +88,9 @@ Designed for shared research lab environments with 4+ GPUs where multiple users 
 ## Author
 
 Sicong Liang
+
 FLAIR LAB
+
 Texas A&M University
 
 ---
