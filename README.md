@@ -87,9 +87,10 @@ Designed for shared research lab environments with 4+ GPUs where multiple users 
 
 ## Author
 
-Sicong Liu  
+Sicong Liang
+FLAIR LAB
 Texas A&M University
 
 ---
 
-**Note**: This project demonstrates cloud engineering skills including API integration, database design, automation, and AWS services - valuable experience for cloud/DevOps roles.
+**Note**: This project demonstrates cloud engineering skills including API integration, database design, automation, and AWS services 
