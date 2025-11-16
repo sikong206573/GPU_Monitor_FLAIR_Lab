@@ -1,0 +1,35 @@
+# Sensitive configuration
+config.json
+
+# Credentials and secrets
+*.pem
+*.key
+*.env
+
+# Database files
+*.db
+*.db-journal
+
+# Logs
+*.log
+nohup.out
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Charts and outputs
+charts/
+*.png
+*.jpg
+
+# Backup files
+*.backup
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,38 @@
+{
+  "database": {
+    "path": "gpu_monitor.db"
+  },
+  
+  "update_interval": 30,
+  
+  "gpus": [
+    {"id": 0, "name": "GPU 0"},
+    {"id": 1, "name": "GPU 1"},
+    {"id": 2, "name": "GPU 2"},
+    {"id": 3, "name": "GPU 3"}
+  ],
+  
+  "notion": {
+    "enabled": true,
+    "token": "YOUR_NOTION_TOKEN_HERE",
+    "realtime_page_id": "YOUR_REALTIME_PAGE_ID_HERE",
+    "daily_chart_page_id": "YOUR_DAILY_CHART_PAGE_ID_HERE",
+    "weekly_chart_page_id": "YOUR_WEEKLY_CHART_PAGE_ID_HERE"
+  },
+  
+  "email": {
+    "enabled": false,
+    "comment": "Set to true and configure SMTP after testing basic monitoring"
+  },
+  
+  "imgur": {
+    "enabled": false,
+    "comment": "Set to true and add client_id when ready to generate charts"
+  },
+  
+  "idle_threshold_minutes": 10,
+  "idle_utilization_threshold": 5,
+  "chart_output_dir": "./charts",
+  "chart_dpi": 150,
+  "chart_figsize": [14, 6]
+}
